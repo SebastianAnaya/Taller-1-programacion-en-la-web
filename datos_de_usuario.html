@@ -1,0 +1,126 @@
+<!DOCTYPE htlm>
+
+<html lang="es-CO">
+    <head>
+        <title>Datos de usuario</title>
+    </head>
+    <body>
+        <ul>
+            <li><h3>Datos de usuario</h3></li>
+            <form action="post">
+                <h4>Rellena tu CV</h2>
+                <label for="nombre">Nombre</label>
+                <br>
+                <input type="text" id="nombre" name="nombre" size="30">
+                <br>
+                <label for="apellidos">Apellidos</label>
+                <br>
+                <input type="text" name="apellidos" id="apellidos" size="45">
+                <br>
+                <label for="ps">Contraseña</label>
+                <br>
+                <input type="password" name="contraseña" id="ps" size="30">
+                <br>
+                <label for="cps">Confirma contraseña</label>
+                <br>
+                <input type="password" name="confir_contraseña" id="cps" size="30">
+                <br>
+                <label for="id">Identificacion</label>
+                <br>
+                <select name="tipo_id" id="id">
+                    <option value="TI">TI</option>
+                    <option value="CC">CC</option>
+                    <option value="CE">CE</option>
+                </select>
+                <input type="numeric" id="id" name="numk_id" size="23">
+                <br>
+                <label for="sexm">Sexo</label>
+                <br>
+                <input type="radio" id="sexm" name="sex" value="Masculino">
+                <label for="sexm">Masculino</label>
+                <br>
+                <input type="radio" id="sexf" name="sex" value="Femenino">
+                <label for="sexf">Femenino</label>
+                <br>
+                <label for="foto">Introducir mi foto</label>
+                <br>
+                <input type="file" id="foto" name="foto" accept="image/png, image/jpeg" >
+                <br>
+                <br>
+                <input type="checkbox" id="estudiante" name="estudiante">
+                <label for="estudiante">Estudiente</label>
+                <br><br>
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <label for="departamento">Departamento</label>
+                    <select name="departamento" id="departamento">
+                        <option value="">-Seleccione-</option>
+                        <option value="Amazonas">Amazonas</option>
+                        <option value="Antioquia">Antioquia</option>
+                        <option value="Arauca">Arauca</option>
+                        <option value="Atlántico">Atlántico</option>
+                        <option value="Bogotá">Bogotá DC</option>
+                        <option value="Bolívar">Bolívar</option>
+                        <option value="Boyacá">Boyacá</option>
+                        <option value="Caldas">Caldas</option>
+                        <option value="Caquetá">Caquetá</option>
+                        <option value="Casanare">Casanare</option>
+                        <option value="Cauca">Cauca</option>
+                        <option value="Cesar">Cesar</option>
+                        <option value="Chocó">Chocó</option>
+                        <option value="Córdoba">Córdoba</option>
+                        <option value="Cundinamarca">Cundinamarca</option>
+                        <option value="Guainía">Guainía</option>
+                        <option value="Guaviare">Guaviare</option>
+                        <option value="Huila">Huila</option>
+                        <option value="La Guajira">La Guajira</option>
+                        <option value="Magdalena">Magdalena</option>
+                        <option value="Meta">Meta</option>
+                        <option value="Nariño">Nariño</option>
+                        <option value="Norte de Santander">Norte de Santander</option>
+                        <option value="Putumayo">Putumayo</option>
+                        <option value="Quindío">Quindío</option>
+                        <option value="Risaralda">Risaralda</option>
+                        <option value="San Andrés y Providencia">San Andrés y Providencia</option>
+                        <option value="Santander">Santander</option>
+                        <option value="Sucre">Sucre</option>
+                        <option value="Tolima">Tolima</option>
+                        <option value="Valle del Cauca">Valle del Cauca</option>
+                        <option value="Vaupés">Vaupés</option>
+                        <option value="Vichada">Vichada</option>
+                    </select>
+                    <br>
+                    <label for="dia">Fecha de nacimiento</label>
+                    <br>
+                    <input type="numeric" id="dia" name="dia">
+                    <label for="mes">de</label>
+                    <select name="mes" id="mes">
+                        <option value="">-Seleccione-</option>
+                        <option value="Enero">Enero</option>
+                        <option value="Febrero">Febrero</option>
+                        <option value="Marzo">Marzo</option>
+                        <option value="Abril">Abril</option>
+                        <option value="Mayo">Mayo</option>
+                        <option value="Junio">Junio</option>
+                        <option value="Julio">Julio</option>
+                        <option value="Agosto">Agosto</option>
+                        <option value="Septirmbtre">Septiembre</option>
+                        <option value="Octubre">Octubre</option>
+                        <option value="Noviemrne">Noviembre</option>
+                        <option value="Dicimbre">Diciembre</option>
+                    </select>
+                    <label for="año">de</label>
+                    <input type="numeric" id="año" name="año" max="2022">
+                    <br>
+                    <label for="tareas">Tareas de interes</label>
+                    <br>
+                    <textarea id="tareas" name="tareas_de_interes" rows="10" cols="35"> </textarea>
+                    <br>
+                    <br>
+                </fieldset>
+                <input type="submit" value="Guardar cambios">
+                <input type="reset" value="Borrar datos introducidos">
+            </forms>
+        </ul>
+    </body>
+</html>
